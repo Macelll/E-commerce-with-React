@@ -1,0 +1,27 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle - split between spring and underworld -->
+  <circle cx="50" cy="50" r="45" fill="#ff69b4"/>
+  <path d="M5 50 A45 45 0 0 1 95 50" fill="#2f4f4f"/>
+  
+  <!-- Pomegranate -->
+  <circle cx="50" cy="45" r="15" fill="#dc143c"/>
+  <path d="M50 30 L50 25 Q55 20 50 15" 
+        stroke="#228b22" 
+        stroke-width="2"/>
+  
+  <!-- Spring flowers -->
+  <path d="M25 50 Q35 45 25 40" 
+        fill="none" 
+        stroke="#90ee90" 
+        stroke-width="2"/>
+  <path d="M75 50 Q65 45 75 40" 
+        fill="none" 
+        stroke="#90ee90" 
+        stroke-width="2"/>
+  
+  <!-- Crown -->
+  <path d="M35 70 L45 65 L55 65 L65 70" 
+        fill="none" 
+        stroke="#ffd700" 
+        stroke-width="2"/>
+</svg>

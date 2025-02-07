@@ -1,0 +1,21 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#ff7f50"/>
+  
+  <!-- Rising sun -->
+  <path d="M20 60 Q50 20 80 60" 
+        fill="#ffb6c1"/>
+  
+  <!-- Dawn rays -->
+  <path d="M20 50 L30 50 M50 20 L50 30 M80 50 L70 50" 
+        stroke="#fff" 
+        stroke-width="3"/>
+  <path d="M30 30 L37 37 M70 30 L63 37" 
+        stroke="#fff" 
+        stroke-width="3"/>
+  
+  <!-- Morning dew drops -->
+  <circle cx="35" cy="65" r="2" fill="#fff"/>
+  <circle cx="50" cy="70" r="2" fill="#fff"/>
+  <circle cx="65" cy="65" r="2" fill="#fff"/>
+</svg>

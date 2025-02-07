@@ -1,0 +1,26 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#800080"/>
+  
+  <!-- Wine cup -->
+  <path d="M35 30 Q50 25 65 30 L60 60 Q50 65 40 60 Z" 
+        fill="#fff"/>
+  
+  <!-- Grape vine -->
+  <path d="M30 20 Q50 10 70 20" 
+        fill="none" 
+        stroke="#32cd32" 
+        stroke-width="2"/>
+  
+  <!-- Grapes -->
+  <circle cx="40" cy="25" r="4" fill="#4b0082"/>
+  <circle cx="50" cy="22" r="4" fill="#4b0082"/>
+  <circle cx="60" cy="25" r="4" fill="#4b0082"/>
+  
+  <!-- Thyrsus (staff) -->
+  <path d="M50 35 L50 75" 
+        stroke="#daa520" 
+        stroke-width="2"/>
+  <path d="M45 35 Q50 30 55 35 Q50 40 45 35" 
+        fill="#228b22"/>
+</svg>

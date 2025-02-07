@@ -1,0 +1,12 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#ff69b4" />
+  
+  <!-- Heart -->
+  <path d="M50 35 Q35 20 25 35 Q15 50 50 75 Q85 50 75 35 Q65 20 50 35" 
+        fill="#fff" />
+  
+  <!-- Rose -->
+  <path d="M45 25 Q50 20 55 25 Q60 30 55 35 Q50 40 45 35 Q40 30 45 25" 
+        fill="#ff1493" />
+</svg>

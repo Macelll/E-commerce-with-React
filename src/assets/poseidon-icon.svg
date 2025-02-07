@@ -1,0 +1,23 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#1e3d59" />
+  
+  <!-- Waves -->
+  <path d="M10 60 Q25 50 40 60 Q55 70 70 60 Q85 50 90 60" 
+        fill="none" 
+        stroke="#89cff0" 
+        stroke-width="3" />
+  <path d="M10 70 Q25 60 40 70 Q55 80 70 70 Q85 60 90 70" 
+        fill="none" 
+        stroke="#89cff0" 
+        stroke-width="3" />
+  
+  <!-- Trident -->
+  <path d="M50 20 L50 75" 
+        stroke="#ffd700" 
+        stroke-width="3" />
+  <path d="M40 25 L50 15 L60 25 M45 25 L50 20 L55 25" 
+        fill="none" 
+        stroke="#ffd700" 
+        stroke-width="3" />
+</svg>

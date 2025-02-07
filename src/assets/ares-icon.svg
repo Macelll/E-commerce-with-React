@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#c0392b" />
+  
+  <!-- Helmet -->
+  <path d="M30 40 Q50 30 70 40 L65 60 Q50 65 35 60 Z" 
+        fill="#8b0000" />
+  <path d="M40 35 Q50 25 60 35" 
+        fill="none" 
+        stroke="#fff" 
+        stroke-width="3" />
+  
+  <!-- Crossed swords -->
+  <path d="M35 45 L65 75 M65 45 L35 75" 
+        stroke="#ddd" 
+        stroke-width="4" />
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#4a90e2" />
+  
+  <!-- Lightning bolt -->
+  <path d="M60 20 L45 45 L55 45 L40 80 L45 55 L35 55 L50 20" 
+        fill="#ffd700" 
+        stroke="#fff" 
+        stroke-width="2" />
+  
+  <!-- Crown -->
+  <path d="M30 25 L40 15 L50 25 L60 15 L70 25 L65 30 L35 30 Z" 
+        fill="#ffd700" />
+  
+  <!-- Cloud elements -->
+  <path d="M15 40 Q25 30 35 40 Q45 30 55 40 Q65 30 75 40 Q85 30 85 40" 
+        fill="none" 
+        stroke="#fff" 
+        stroke-width="3" />
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#2c3e50" />
+  
+  <!-- Crescent moon -->
+  <path d="M60 25 A20 20 0 1 1 60 75 A25 25 0 1 0 60 25" 
+        fill="#f5f5f5" />
+  
+  <!-- Bow -->
+  <path d="M30 35 Q50 25 70 35" 
+        fill="none" 
+        stroke="#silver" 
+        stroke-width="3" />
+  <!-- Arrow -->
+  <line x1="50" y1="35" x2="50" y2="65" 
+        stroke="#silver" 
+        stroke-width="2" />
+  <path d="M45 60 L50 65 L55 60" 
+        fill="none" 
+        stroke="#silver" 
+        stroke-width="2" />
+</svg>
