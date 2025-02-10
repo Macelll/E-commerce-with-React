@@ -62,7 +62,7 @@ export const assets = {
 
 // Define Greek God "products"
 export const products = [
-    { _id: "g001", name: "Zeus - King of the Gods", description: "Ruler of Olympus, master of thunder.", price: 4999000, image: [zeus_icon], category: "Olympian", subCategory: "Decree", variants: ["Thunderbolt", "Stormcaller", "Skyfather"], bestseller: true },
+    { _id: "g001", name: "Zeus - King of the Gods", description: "Ruler of Olympus, master of thunder.", price: 1499000, image: [zeus_icon], category: "Olympian", subCategory: "Decree", variants: ["Thunderbolt", "Stormcaller", "Skyfather"], bestseller: true },
     { _id: "g002", name: "Hera - Queen of the Gods", description: "Protector of marriage and women.", price: 899000, image: [hera_icon], category: "Olympian", subCategory: "Favor", variants: ["Peacock's Grace", "Golden Crown"], bestseller: false },
     { _id: "g003", name: "Poseidon - God of the Sea", description: "Master of oceans, earthquakes, and storms.", price: 899000, image: [poseidon_icon], category: "Olympian", subCategory: "Decree", variants: ["Trident of Power", "Tsunami Bringer"], bestseller: false },
     { _id: "g004", name: "Demeter - Goddess of Harvest", description: "Bringer of seasons and fertility.", price: 799000, image: [demeter_icon], category: "Olympian", subCategory: "Favor", variants: ["Golden Grain", "Harvest Bounty"], bestseller: true },
