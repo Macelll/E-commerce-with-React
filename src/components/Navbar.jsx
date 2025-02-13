@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { assets } from '../assets/assets';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { ShopContext } from '../context/ShopContext';
 import SearchBar from './SearchBar';
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
   const { showSearch, setShowSearch, getCartCount} = React.useContext(ShopContext);
+  const location = useLocation();
 
   const toggleSearchBar = () => {
     setShowSearch(!showSearch);
@@ -44,7 +45,10 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-6'>
-          <img onClick={toggleSearchBar} src={assets.search_icon} className='w-5 cursor-pointer' alt='Search Icon' />
+          {/* Conditionally render the search icon */}
+          {location.pathname === '/collection' && (
+            <img onClick={toggleSearchBar} src={assets.search_icon} className='w-5 cursor-pointer' alt='Search Icon' />
+          )}
           <div className='group relative'>
             <img className='w-5 cursor-pointer' src={assets.profile_icon} alt='Profile Icon' />
             <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
