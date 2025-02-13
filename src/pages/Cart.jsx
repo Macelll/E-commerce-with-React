@@ -68,12 +68,11 @@ const Cart = () => {
         <div className='w-full sm:w-[450px]'>
           <CartTotal />
           <div className='w-full text-end'>
-            <button className='bg-black text-white text-sm my-8 px-8 py-3'>CHECKOUT</button>
-          </div>
+            <button className='bg-black text-white border border-black my-8 px-8 py-3 text-sm hover:bg-white hover:text-black transition-all duration-500 cursor-pointer'>CHECKOUT</button>
+          </div>  
         </div>
       </div>
     </div>
   );
 }
-
 export default Cart;
